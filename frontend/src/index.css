@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    background: theme('colors.bg');
+    color: theme('colors.ink');
+    font-family: theme('fontFamily.sans');
+  }
+  h1, h2, h3 {
+    font-family: theme('fontFamily.serif');
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-transform active:scale-[0.97];
+  }
+  .btn-primary {
+    @apply bg-wine text-white hover:bg-wine-dark;
+  }
+  .btn-ghost {
+    @apply bg-transparent text-wine-dark border border-wine-dark hover:bg-wine-tint;
+  }
+  .btn-sm {
+    @apply px-4 py-2 text-[13.5px];
+  }
+  .card {
+    @apply bg-white border border-line rounded-card p-[22px];
+  }
+  .field label {
+    @apply block text-[13px] font-semibold text-wine-dark mb-1.5;
+  }
+  .field input, .field select {
+    @apply w-full rounded-[10px] border border-line bg-white px-3.5 py-2.5 text-[14.5px] text-ink outline-none focus:ring-2 focus:ring-rose;
+  }
+  .chip {
+    @apply px-4 py-2 rounded-full border border-line text-[13.5px] font-medium bg-white;
+  }
+  .chip.selected {
+    @apply bg-wine border-wine text-white;
+  }
+}

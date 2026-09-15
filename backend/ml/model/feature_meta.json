@@ -1,0 +1,25 @@
+{
+  "feature_order": [
+    "age",
+    "bmi",
+    "cycle_irregular",
+    "weight_gain",
+    "hair_growth",
+    "skin_darkening",
+    "hair_loss",
+    "pimples",
+    "fast_food",
+    "reg_exercise"
+  ],
+  "binary_features": [
+    "cycle_irregular",
+    "weight_gain",
+    "hair_growth",
+    "skin_darkening",
+    "hair_loss",
+    "pimples",
+    "fast_food",
+    "reg_exercise"
+  ],
+  "notes": "cycle_irregular: 1 if periods are irregular/absent, else 0. All other binary fields: 1=yes, 0=no."
+}

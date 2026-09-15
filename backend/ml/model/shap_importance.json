@@ -1,0 +1,12 @@
+{
+  "skin_darkening": 0.69198,
+  "weight_gain": 0.67351,
+  "cycle_irregular": 0.66345,
+  "hair_growth": 0.60575,
+  "bmi": 0.5921,
+  "age": 0.50784,
+  "pimples": 0.39104,
+  "fast_food": 0.36342,
+  "reg_exercise": 0.22688,
+  "hair_loss": 0.06482
+}

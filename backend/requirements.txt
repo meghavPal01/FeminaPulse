@@ -1,0 +1,23 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic[email]>=2.0
+pyjwt>=2.8
+bcrypt>=4.0
+python-dotenv>=1.0
+
+# MongoDB
+motor>=3.4
+beanie>=1.25
+
+# testing
+pytest>=8.0
+httpx>=0.27
+mongomock-motor>=0.0.30
+
+# ML (shared with ml/train.py)
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+xgboost>=2.0
+shap>=0.44
+joblib>=1.3

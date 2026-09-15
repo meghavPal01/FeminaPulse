@@ -1,0 +1,34 @@
+{
+  "dataset_size": 538,
+  "train_size": 430,
+  "test_size": 108,
+  "class_balance": {
+    "0": 361,
+    "1": 177
+  },
+  "model_comparison": {
+    "logistic_regression": {
+      "accuracy": 0.8241,
+      "precision": 0.7297,
+      "recall": 0.75,
+      "f1": 0.7397,
+      "roc_auc": 0.8692
+    },
+    "random_forest": {
+      "accuracy": 0.8148,
+      "precision": 0.7222,
+      "recall": 0.7222,
+      "f1": 0.7222,
+      "roc_auc": 0.8603
+    },
+    "xgboost": {
+      "accuracy": 0.8241,
+      "precision": 0.7073,
+      "recall": 0.8056,
+      "f1": 0.7532,
+      "roc_auc": 0.8588
+    }
+  },
+  "chosen_model": "xgboost",
+  "note": "chosen_model metrics above are on the held-out test split; the shipped model.joblib is refit on all data."
+}
