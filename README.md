@@ -4,13 +4,6 @@ A full-stack PCOS tracking app: React frontend, FastAPI backend on
 **MongoDB Atlas**, and a trained XGBoost risk-prediction model — built out
 phase by phase per the original project roadmap.
 
-## Quick start
-
-**1. Set up MongoDB Atlas** (one-time, ~5 minutes) — see
-`backend/README.md` → "MongoDB Atlas setup" for the full walkthrough:
-create a free account, a free M0 cluster, a database user, allow network
-access, and copy the connection string into `backend/.env`.
-
 **2. Backend:**
 ```bash
 cd backend
@@ -53,13 +46,6 @@ to watch documents appear as you use the app.
 - ⏳ Firebase Authentication — documented as a future swap in `backend/README.md`
 - ⏳ Deployment (Vercel/Render) — not yet done
 
-## Tests
-
-```bash
-cd backend && pytest test_backend.py -v   # 14 tests: auth, profile, logs, predict, recommendations
-```
-
-Tests run against an in-memory MongoDB-compatible mock
 (`mongomock-motor`), so they need no network access and never touch your
 real Atlas cluster — but they exercise the exact same Motor/Beanie query
 code that talks to Atlas in production.
