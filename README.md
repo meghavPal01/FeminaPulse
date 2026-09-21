@@ -43,7 +43,7 @@ to watch documents appear as you use the app.
 - ✅ Phase 6 — Progress dashboard
 - ✅ Phase 7 — Lifestyle recommendation engine (rule-based, as planned for its first iteration)
 - ✅ MongoDB Atlas — real, via Motor + Beanie (needs your own free-tier connection string, see above)
-- ⏳ Firebase Authentication — documented as a future swap in `backend/README.md`
+- ✅Firebase Authentication 
 - ⏳ Deployment (Vercel/Render) — not yet done
 
 (`mongomock-motor`), so they need no network access and never touch your
