@@ -46,9 +46,3 @@ to watch documents appear as you use the app.
 - ✅Firebase Authentication 
 - ⏳ Deployment (Vercel/Render) — not yet done
 
-(`mongomock-motor`), so they need no network access and never touch your
-real Atlas cluster — but they exercise the exact same Motor/Beanie query
-code that talks to Atlas in production.
-
-Frontend has no automated tests yet — a good next addition (React Testing
-Library + Vitest) if you want to keep building this out.
