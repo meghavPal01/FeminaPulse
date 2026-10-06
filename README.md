@@ -1,7 +1,7 @@
 # Femina Pulse
 
 A full-stack PCOS tracking app: React frontend, FastAPI backend on
-**MongoDB Atlas**, and a trained XGBoost risk-prediction model — built out
+**MongoDB Atlas**, and a trained XGBoost risk-prediction model ,built out
 phase by phase per the original project roadmap.
 
 **2. Backend:**
